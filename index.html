@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal web de Santiago Montoya, estudiante de Ingeniería Multimedia.">
+  <title>Santiago Montoya | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Ir al inicio">SM</a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link active" href="#inicio">Inicio</a></li>
+        <li><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#proyectos">Proyectos</a></li>
+        <li><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-divider" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Portafolio personal</p>
+          <h1>Santiago Montoya</h1>
+          <h2>Estudiante de Ingeniería Multimedia</h2>
+          <p>
+            Soy estudiante de Ingeniería Multimedia con pasión por el diseño visual, el modelado 3D,
+            las experiencias interactivas y el desarrollo web. Me gusta aprender, crear soluciones
+            funcionales y convertir ideas en proyectos que conecten con las personas.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-secondary" href="#contacto">Contacto</a>
+          </div>
+        </div>
+
+        <div class="hero-avatar" aria-label="Avatar ilustrado de Santiago Montoya">
+          <div class="avatar-frame">
+            <img src="img/foto-santiago.jpeg" alt="Foto de Santiago Montoya">
+          </div>
+          <span class="orbit-dot dot-one"></span>
+          <span class="orbit-dot dot-two"></span>
+          <span class="scan-line"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-divider" id="sobre-mi">
+      <div class="container about-content">
+        <div class="section-icon" aria-hidden="true">
+          <span class="icon-head"></span>
+          <span class="icon-body"></span>
+        </div>
+
+        <div>
+          <h2 class="section-title">Sobre mí</h2>
+          <p>
+            Soy estudiante de Ingeniería Multimedia con interés en el modelado 3D, el diseño de
+            interfaces digitales, la animación y el desarrollo interactivo. Disfruto aprender nuevas
+            herramientas y asumir retos creativos que me permitan seguir creciendo profesionalmente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-divider" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-list" aria-label="Lista de habilidades">
+          <span class="skill-chip" aria-label="Illustrator" title="Illustrator">
+            <span class="skill-icon">
+              <img src="img/skills/illustrator.png" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="AutoCAD" title="AutoCAD">
+            <span class="skill-icon">
+              <img src="img/skills/autocad.webp" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="Maya 3D" title="Maya 3D">
+            <span class="skill-icon">
+              <img src="img/skills/maya.png" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="Blender" title="Blender">
+            <span class="skill-icon">
+              <img src="img/skills/blender.webp" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="HTML" title="HTML">
+            <span class="skill-icon">
+              <img src="img/skills/html.png" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="CSS" title="CSS">
+            <span class="skill-icon">
+              <img src="img/skills/css.png" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="JavaScript básico" title="JavaScript básico">
+            <span class="skill-icon">
+              <img src="img/skills/javascript.png" alt="">
+            </span>
+          </span>
+          <span class="skill-chip" aria-label="Unity" title="Unity">
+            <span class="skill-icon">
+              <img src="img/skills/unity.webp" alt="">
+            </span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-divider" id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Proyectos destacados</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="img/proyecto-figura-sci-fi.jpeg" alt="Figura coleccionable sci-fi modelada en 3D">
+            <div class="project-info">
+              <h3>Texturizado Robot</h3>
+              <p>Diseño y acabado de personaje 3D estilizado.</p>
+              <a href="#contacto">Ver más</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/proyecto-simulacion-pulmonar.png" alt="Interfaz de simulación pulmonar educativa en Unity">
+            <div class="project-info">
+              <h3>Simulación pulmonar en Unity</h3>
+              <p>Experiencia interactiva educativa sobre los efectos del tabaco.</p>
+              <a href="#contacto">Ver más</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/proyecto-concept-smoker.jpg" alt="Concept art 3D del proyecto Smoker">
+            <div class="project-info">
+              <h3>MEEt meet competencia</h3>
+              <p>Propuesta visual y modelado de pieza conceptual.</p>
+              <a href="#contacto">Ver más</a>
+            </div>
+          </article>
+
+       
+
+          <article class="project-card">
+            <img src="img/proyecto-robot-maya.jpeg" alt="Robot 3D en proceso de modelado dentro de Maya">
+            <div class="project-info">
+              <h3>Robot 3D en Maya</h3>
+              <p>Proceso de modelado y construcción de personaje mecánico.</p>
+              <a href="#contacto">Ver más</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/proyecto-personaje-3d.jpeg" alt="Personaje estilizado 3D en pose T">
+            <div class="project-info">
+              <h3>Personaje estilizado 3D</h3>
+              <p>Creación de personaje cartoon para proyecto propio.</p>
+              <a href="#contacto">Ver más</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/proyecto-shadows-self.jpeg" alt="Menú del videojuego Shadows of Self en Unity">
+            <div class="project-info">
+              <h3>Homero mobil</h3>
+              <p>Diseño de carro para rig</p>
+              <a href="#contacto">Ver más</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="contact-layout">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Nombre">
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Correo</label>
+                <input type="email" id="email" name="email" placeholder="Correo">
+                <small class="error-message"></small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" placeholder="Mensaje"></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button class="btn btn-primary form-button" type="submit">Enviar mensaje</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-card" aria-label="Datos de contacto">
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <strong>Correo:</strong>
+                <a href="mailto:skereowor@gmail.com">skereowor@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">◎</span>
+              <div>
+                <strong>Instagram:</strong>
+                <a href="https://www.instagram.com/chocolate_derretido_owo/" target="_blank" rel="noopener noreferrer">@chocolate_derretido_owo</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">☎</span>
+              <div>
+                <strong>Teléfono:</strong>
+                <a href="tel:+573017941336">3017941336</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Santiago Montoya. Todos los derechos reservados.</p>
+      <small>Hecho con café y creatividad.</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
